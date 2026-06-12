@@ -1,0 +1,1 @@
+import java.util.*; public class Seven{ public static void main(String[] args){ String s="java is easy java"; Map<String,Integer> m=new HashMap<>(); for(String w:s.split(" ")) m.put(w,m.getOrDefault(w,0)+1); System.out.println(m); }}

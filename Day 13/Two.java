@@ -1,0 +1,1 @@
+import java.util.*; public class Two{ public static void main(String[] args){ int[] a={30,10,20,10}; Set<Integer> h=new HashSet<>(); Set<Integer> l=new LinkedHashSet<>(); Set<Integer> t=new TreeSet<>(); for(int i:a){h.add(i);l.add(i);t.add(i);} System.out.println(h); System.out.println(l); System.out.println(t); }}

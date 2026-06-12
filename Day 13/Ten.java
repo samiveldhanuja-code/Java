@@ -1,0 +1,1 @@
+import java.util.*; public class Ten{ public static void main(String[] args){ Map<String,String> issue=new HashMap<>(); issue.put("Java","Ali"); issue.put("Python","Sara"); System.out.println(issue); }}

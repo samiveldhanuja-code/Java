@@ -1,0 +1,1 @@
+import java.util.*; public class Six{ public static void main(String[] args){ Map<String,String> phone=new HashMap<>(); phone.put("Ali","12345"); phone.put("Sara","67890"); System.out.println(phone.get("Sara")); }}

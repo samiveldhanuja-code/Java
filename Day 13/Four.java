@@ -1,0 +1,1 @@
+import java.util.*; public class Four{ public static void main(String[] args){ Set<String> voters=new HashSet<>(); System.out.println(voters.add("V101")); System.out.println(voters.add("V102")); System.out.println(voters.add("V101")); }}

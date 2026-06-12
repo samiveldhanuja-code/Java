@@ -1,0 +1,1 @@
+import java.util.*; public class Five{ public static void main(String[] args){ Map<Integer,String> emp=new HashMap<>(); emp.put(101,"Ali"); emp.put(102,"Sara"); emp.put(102,"John"); emp.remove(101); System.out.println(emp); }}

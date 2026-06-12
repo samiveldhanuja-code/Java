@@ -1,0 +1,1 @@
+import java.util.*; public class One{ public static void main(String[] args){ Set<String> emails=new HashSet<>(); emails.add("a@gmail.com"); emails.add("b@gmail.com"); emails.add("a@gmail.com"); System.out.println(emails); }}

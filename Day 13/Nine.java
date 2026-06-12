@@ -1,0 +1,1 @@
+import java.util.*; public class Nine{ public static void main(String[] args){ Map<String,Integer> stock=new HashMap<>(); stock.put("Pen",50); stock.put("Book",20); stock.put("Pen",45); System.out.println(stock); }}
