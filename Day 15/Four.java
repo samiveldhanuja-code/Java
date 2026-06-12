@@ -1,0 +1,1 @@
+import java.util.*; class Employee{ String name; int salary; Employee(String n,int s){name=n;salary=s;} public String toString(){return name+":"+salary;} } public class Four{ public static void main(String[] args){ List<Employee> list=Arrays.asList(new Employee("A",5000),new Employee("B",3000)); list.stream().sorted((a,b)->a.salary-b.salary).forEach(System.out::println); }}

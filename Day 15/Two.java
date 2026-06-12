@@ -1,0 +1,1 @@
+import java.util.*; import java.util.stream.*; public class Two{ public static void main(String[] args){ List<String> list=Arrays.asList("java","python","c"); list.stream().map(String::toUpperCase).forEach(System.out::println); }}

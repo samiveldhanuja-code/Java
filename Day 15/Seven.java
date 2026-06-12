@@ -1,0 +1,1 @@
+import java.util.*; import java.util.stream.*; class Student{ String name,dept; Student(String n,String d){name=n;dept=d;} } public class Seven{ public static void main(String[] args){ List<Student> list=Arrays.asList(new Student("Ali","IT"),new Student("Sara","HR"),new Student("John","IT")); System.out.println(list.stream().collect(Collectors.groupingBy(s->s.dept))); }}
