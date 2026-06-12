@@ -1,0 +1,1 @@
+interface Message{ void show(); } public class Seven{ public static void main(String[] args){ Message m=new Message(){ public void show(){ System.out.println("Anonymous Class"); }}; m.show(); }}

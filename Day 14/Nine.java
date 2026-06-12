@@ -1,0 +1,1 @@
+interface Calc{ int operation(int a,int b);} public class Nine{ public static void main(String[] args){ Calc add=(a,b)->a+b; Calc sub=(a,b)->a-b; Calc mul=(a,b)->a*b; System.out.println(add.operation(10,5)); System.out.println(sub.operation(10,5)); System.out.println(mul.operation(10,5)); }}

@@ -1,0 +1,1 @@
+interface Message2{ void show(); } public class Eight{ public static void main(String[] args){ Message2 m=()->System.out.println("Lambda Expression"); m.show(); }}

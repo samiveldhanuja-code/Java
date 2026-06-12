@@ -1,0 +1,1 @@
+import java.util.*; public class Two{ public static void main(String[] args){ List<Integer> list=new ArrayList<>(Arrays.asList(1,2,3,4,5)); Collections.reverse(list); System.out.println("Reverse: "+list); Collections.shuffle(list); System.out.println("Shuffle: "+list); }}

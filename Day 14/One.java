@@ -1,0 +1,1 @@
+import java.util.*; public class One{ public static void main(String[] args){ List<Integer> list=Arrays.asList(5,2,8,1,9); Collections.sort(list); System.out.println(list); }}

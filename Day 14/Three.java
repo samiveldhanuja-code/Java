@@ -1,0 +1,1 @@
+import java.util.*; public class Three{ public static void main(String[] args){ List<Integer> list=Arrays.asList(10,5,30,2,50); System.out.println("Min="+Collections.min(list)); System.out.println("Max="+Collections.max(list)); }}

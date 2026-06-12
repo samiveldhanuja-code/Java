@@ -1,0 +1,1 @@
+import java.util.function.*; public class Ten{ public static void main(String[] args){ Predicate<Integer> p=x->x>18; Function<Integer,Integer> f=x->x*x; Consumer<String> c=x->System.out.println(x); Supplier<Double> s=()->Math.random(); System.out.println(p.test(20)); System.out.println(f.apply(5)); c.accept("Hello"); System.out.println(s.get()); }}
